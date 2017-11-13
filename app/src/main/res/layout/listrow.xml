@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="3dp"
+    card_view:contentPadding="4dp"
+    card_view:cardBackgroundColor="#1e88e5"
+    android:clickable="true"
+    android:foreground="?selectableItemBackground"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/supp_name"
+            android:layout_margin="10dp"
+            android:text="FIRST NAME"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textColorHint="@color/colorPrimary"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/supply_Id"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/supp_name"
+            android:text="SUPPLIA ID"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:id="@+id/delete_img"
+            android:src="@drawable/delete"
+            />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

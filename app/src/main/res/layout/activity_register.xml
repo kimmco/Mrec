@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d2d0d0"
+    tools:context="com.cokimutai.mrec.Register">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/s_id"
+        android:ems="10"
+        android:textColorHint="#f79f9d9d"
+        android:fontFamily="sans-serif-condensed"
+        android:background="@drawable/round_edittext"
+        android:hint="ID Number"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="30dp"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/f_name"
+        android:ems="10"
+        android:textColorHint="#f79f9d9d"
+        android:fontFamily="sans-serif-condensed"
+        android:background="@drawable/round_edittext"
+        android:hint="First Name"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="textCapSentences" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/l_name"
+        android:ems="10"
+        android:background="@drawable/round_edittext"
+        android:hint="Last Name"
+        android:layout_margin="10dp"
+        android:textColorHint="#f79f9d9d"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginLeft="20dp"
+        android:inputType="textCapSentences" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/r_dnc"
+        android:ems="10"
+        android:background="@drawable/round_edittext"
+        android:hint="Residence"
+        android:layout_margin="10dp"
+        android:textColorHint="#f79f9d9d"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginLeft="20dp"
+        android:inputType="textCapSentences" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/call_no"
+        android:ems="10"
+        android:background="@drawable/round_edittext"
+        android:hint="Phone"
+        android:textColorHint="#f79f9d9d"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="phone" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREATE"
+        android:background="@drawable/round_edittext"
+        android:id="@+id/button"
+        android:backgroundTint="#2196f3"
+        android:textColor="@color/cardview_light_background"
+        android:onClick="createSupplia"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="20dp" />
+
+
+</LinearLayout>
